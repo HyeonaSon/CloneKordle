@@ -1,149 +1,153 @@
-.container {
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  width: 1024;
-  height: 800px;
+@media screen and (min-width: 320px) {
+
+  .container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .box {
+    margin: 10px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: ‘SUIT Variable’, sans-serif;
+  }
+  
+  .box1 {
+    height: 60px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+  .box2 {
+    width: 400px;
+    height: 380px;
+  }
+  
+  .box3 {
+    width: 480px;
+    height: 200px;
+  }
+  
+  .box4 {
+    height: 40px;
+  }
+  
+  .item {
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  
+  .item1 {
+    width: 160px;
+    height: 60px;
+    justify-content: flex-start;
+    padding-left: 2px;
+  }
+  
+  .item2 {
+    width: 160px;
+    height: 60px;
+    justify-content: flex-end;
+    padding-right: 2px;
+  }
+  
+  .item3{
+    display: flex;
+    justify-content: center;
+    height: 56px;
+    margin: 6px 2px;
+  }
+  
+  .item4{
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    margin: 14px 8px;
+  }
+  
+  .item5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    margin: 4px 4px;
+  }
+  
+  .ibox1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    margin: 2px 2px;
+    background: white;
+    border: 1.7px solid darkgrey;
+    border-radius: 3px;
+  }
+  
+  
+  .ibox2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 42px;
+    height: 56px;
+    border-width: 0px;
+    margin: 4px 2px;
+    border-radius: 3px;
+    background: silver;
+  
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  button:hover{
+    color:aliceblue;
+    background-color: slategray;
+  
+  }
+  
+  
+  .enter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 72px;
+    height: 56px;
+    margin: 4px 2px;
+    border-width: 0px;
+    border-radius: 3px;
+    background: silver;
+    font-weight: 700;
+  }
+  
+  .ibox3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  
+    font-size: 12px;
+    width: 70px;
+    height: 24px;
+    border-width: 0px;
+    border-radius: 3px;
+    background-color: darkgrey;
+  }
+  
+  i {
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
 }
 
-.box {
-  width: 320px;
-  margin: 10px 10px;
-}
 
-.box1 {
-  height: 60px;
-  margin-bottom: 10px;
-  display: flex;
-  flex-direction: row;
-
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.box2 {
-  width: 400px;
-  height: 380px;
-}
-
-.box3 {
-  width: 480px;
-  height: 200px;
-}
-
-.box4 {
-  height: 40px;
-}
-
-.item {
-  display: flex;
-  position: relative;
-  align-items: center;
-}
-
-.item1 {
-  width: 160px;
-  height: 60px;
-  justify-content: flex-start;
-  padding-left: 2px;
-}
-
-.item2 {
-  width: 160px;
-  height: 60px;
-  justify-content: flex-end;
-  padding-right: 2px;
-}
-
-.item3{
-  display: flex;
-  justify-content: center;
-  height: 56px;
-  margin: 6px 2px;
-}
-
-.item4{
-  display: flex;
-  justify-content: center;
-  height: 48px;
-  margin: 14px 8px;
-}
-
-.item5 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 24px;
-  margin: 4px 4px;
-}
-
-.ibox1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 56px;
-  height: 56px;
-  margin: 2px 2px;
-  background: white;
-  border: 1.7px solid darkgrey;
-  border-radius: 3px;
-}
-
-
-.ibox2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 42px;
-  height: 56px;
-  border-width: 0px;
-  margin: 4px 2px;
-  border-radius: 3px;
-  background: silver;
-
-  font-size: 16px;
-  font-weight: 700;
-}
-
-button:hover{
-  color:aliceblue;
-  background-color: slategray;
-
-}
-
-
-.enter {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 72px;
-  height: 56px;
-  margin: 4px 2px;
-  border-width: 0px;
-  border-radius: 3px;
-  background: silver;
-  font-weight: 700;
-}
-
-.ibox3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-
-  font-size: 12px;
-  width: 70px;
-  height: 24px;
-  border-width: 0px;
-  border-radius: 3px;
-  background-color: darkgrey;
-}
-
-i {
-  margin-left: 10px;
-  font-size: 25px;
-}
