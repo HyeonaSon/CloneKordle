@@ -16,6 +16,9 @@
   height: 60px;
   display: flex;
   flex-direction: row;
+
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .box2 {
@@ -100,6 +103,7 @@
   background: silver;
 
   font-size: 16px;
+  font-weight: 700;
 }
 
 button:hover{
@@ -120,6 +124,7 @@ button:hover{
   border-width: 0px;
   border-radius: 3px;
   background: silver;
+  font-weight: 700;
 }
 
 .ibox3 {
@@ -134,4 +139,8 @@ button:hover{
   border-width: 0px;
   border-radius: 3px;
   background-color: darkgrey;
+}
+
+i {
+  margin-left: 10px;
 }
