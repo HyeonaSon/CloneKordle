@@ -4,8 +4,8 @@
     display: flex;
     position: relative;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     width: 100%
   }
   
@@ -13,7 +13,7 @@
     margin: 10px 10px;
     font-size: 20px;
     font-weight: 700;
-    font-family: ‘SUIT Variable’, sans-serif;
+
   }
   
   .box1 {
